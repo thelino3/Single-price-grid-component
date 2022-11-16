@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Karla', sans-serif;
+}
+body{
+    font-size: 16px;
+}
+section{
+    min-height: 100vh;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(204, 43%,93%);
+    padding: 100px 30px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 100%;
+    max-width: 530%;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow:0 0 14px 1px #00000024 ;
+    overflow: hidden;
+}
+.item{
+    padding: 30px;
+}
+.item-1{
+    background-color: white;
+    
+    
+}
+.item-1 h2{
+    color: hsl(179, 62%, 43%);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.item-1 h3{
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+.item-1 p{
+    color: hsl(218, 22%, 67%);
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+.item-2{
+    background-color: hsl(179, 62%, 35%);
+}
+.item-2 h2{
+    font-size: 25px;
+    color:#fff;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.item-2 p{
+    color: hsl(204, 43%, 93%);
+    font-size:1rem;
+    margin-bottom: 10px;    
+    font-weight: 400;
+}
+.item-2 span{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.item-2 .button{
+    text-align: center;
+    width: 90%;
+    padding: 15px;
+    background-color: hsl(71, 73%, 54%);
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    font-weight: 700;
+    box-shadow: 0 6px 10px 1px #00000033;
+}
+.item-3{
+    background-color: hsl(179, 62%, 43%);
+}
+.item-3 h2{
+    color: white;
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+.item-3 p{
+    color: hsl(204, 43%, 93%);
+    line-height: 1.5rem;
+}
+@media only screen and (min-width: 760px){
+    .container{
+        grid-template-columns: 1fr 1fr;
+    }
+     .item-1{
+        grid-area: 1/ 1/ 2/ 3;
+    } 
+}
+
+
+
+/* body{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -60%);
+    box-shadow: 0 2px 10px 0px rgb(100, 93, 93);
+    overflow: hidden;
+    border-radius: 8px;
+    padding: 40px 80px;
+    height: 43vh;
+    width: 35%;
+}
+.head{
+   background-color: white;
+   padding-bottom: 30px;
+}
+.text{
+    margin-left: -15px;
+}
+.text h2{
+    color: hsla(179, 62%, 35%, 0.808);
+    padding-bottom: 15px;
+    font-size: 25px;
+}
+.text h3{
+    color: hsl(71, 73%, 54%);
+    padding-bottom: 15px;
+}
+.text p{
+    color: hsl(218, 22%, 67%);
+    line-height: 25px;
+}
+.left{
+    background-color: hsl(179, 61%, 33%);
+    width: 100%;
+} */
